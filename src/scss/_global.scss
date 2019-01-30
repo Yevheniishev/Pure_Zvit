@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;        
+}  
+
+body {
+    font-size: 1.6rem; 
+          
+}
+.container {
+    margin: 0 auto;
+    padding: 0 15px; 
+    overflow: auto; 
+}
+.container::-webkit-scrollbar {
+     width: 0; 
+}
+.container { 
+    -ms-overflow-style: none; 
+}
